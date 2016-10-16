@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.0'
+version = '0.1.0'
 
 setup(name="helga-{{ cookiecutter.plugin_name }}",
       version=version,
@@ -19,7 +19,7 @@ setup(name="helga-{{ cookiecutter.plugin_name }}",
       license='LICENSE',
       packages=find_packages(),
       include_package_data=True,
-      py_modules=['helga-{{ cookiecutter.plugin_name }}'],
+      py_modules=['helga_{{ cookiecutter.plugin_name }}'],
       zip_safe=True,
       entry_points = dict(
           helga_plugins = [

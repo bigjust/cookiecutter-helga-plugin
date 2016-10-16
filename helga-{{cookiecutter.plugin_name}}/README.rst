@@ -1,10 +1,11 @@
 helga-{{ cookiecutter.plugin_name }}
 ===========
 
+general description of plugin
 
 License
 -------
 
-Copyright (c) 2014 {{ cookiecutter.author_name }}
+Copyright (c) {% now 'local', '%Y' %} {{ cookiecutter.author_name }}
 
 GPLv3 Licensed
